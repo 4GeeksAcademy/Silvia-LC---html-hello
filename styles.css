@@ -1,0 +1,52 @@
+body {
+	font-family:'Times New Roman', Times, serif;
+	background: linear-gradient(to bottom, #ffdfd4, #ffffff);
+	margin: 0;
+	padding: 0;
+  }
+  
+  .container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 20px;
+  }
+  
+  article {
+	width: 320px;
+	margin: 15px;
+	border: 1px solid #ccc;
+	border-radius: 15px;
+	background-color: #fff;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .image_container img {
+	width: 100%;
+	border-radius: 15px 15px 0 0;
+  }
+  
+  .post_title {
+	padding: 15px;
+	background-color: #f8f8f8;
+	border-bottom: 1px solid #eaeaea;
+	text-align: center;
+  }
+  
+  .comment_container {
+	padding: 10px;
+	font-size: 14px;
+	text-align: center;
+	color: #666;
+  }
+  
+  h2 {
+	font-size: 18px;
+	color: #333;
+  }
+  
+  .date_container p {
+	font-size: 12px;
+	color: #999;
+	margin: 0;
+  }
